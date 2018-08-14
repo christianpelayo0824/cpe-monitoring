@@ -52,4 +52,9 @@ public class EventServicesImpl implements EventServices {
 		return eventRepo.getEventTitleById(eventId);
 	}
 
+	@Override
+	public String getEventDateByid(int eventId) {
+		return eventRepo.getEventDateById(eventId);
+	}
+
 }

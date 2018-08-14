@@ -20,5 +20,7 @@ public interface EventServices {
 	public int getNoOFParticipantsById(int eventId);
 	
 	public String getEventTitleByid(int eventId);
+	
+	public String getEventDateByid(int eventId);
 
 }

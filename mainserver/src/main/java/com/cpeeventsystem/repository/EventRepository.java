@@ -16,4 +16,7 @@ public interface EventRepository extends CrudRepository<Event, Integer> {
 	@Query("SELECT e.title FROM Event e WHERE e.id = :eventId")
 	public String getEventTitleById(@Param("eventId") int eventId);
 
+	@Query("SELECT e.date FROM Event e WHERE e.id = :eventId")
+	public String getEventDateById(@Param("eventId") int eventId);
+
 }

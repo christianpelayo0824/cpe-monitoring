@@ -31,8 +31,17 @@ public class SendEmailServicesImpl implements SendEmailServices {
 		MimeMessageHelper helper;
 
 		try {
-			String body = "Hello " + student.getFirstname() + "!" + " Thankyou for registering on this event ( "
-					+ eventServices.getEventTitleByid(student.getevent()) + " ). See you and have fun!";
+
+			String body = "Hello " + student.getFirstname() + "!<br>";
+			body += " Thankyou for registering on this event ( " + eventServices.getEventTitleByid(student.getevent())
+					+ " ). See you and have fun!<br>";
+			body += "<br>";
+			body += "WHAT: " + eventServices.getEventTitleByid(student.getevent());
+			body += "<br>WHEN: " + eventServices.getEventDateByid(student.getevent());
+			body += "<br>";
+			body += "<br>Sherwin Abatayao<br>";
+			body += "Vin Escalante <br>";
+			body += "Christian Pelayo";
 
 			helper = new MimeMessageHelper(message, true);
 			helper.setSubject("Ticket for the Seminar");
