@@ -1,0 +1,82 @@
+.regular {
+    font-family: VarelaRound;
+}
+
+.thin {
+    font-family: Montserrat-Thin;
+}
+
+.medium {
+    font-family: Montserrat-Medium;
+}
+
+.light {
+    font-family: Montserrat-Light;
+}
+
+* {
+    font-family: VarelaRound;
+    color: white;
+}
+
+nav {
+    background-color: #263238;
+}
+
+nav ul a{ 
+    color: #fafafa;
+    text-transform: uppercase;
+    font-size: .8em;
+    font-weight: 600;
+}
+
+nav ul a:hover{ 
+  border-bottom: 3px solid #ff5722;
+}
+
+nav .brand-logo {
+    color: #ff5722;
+}
+
+nav #subscribe-btn {
+    border-radius: 50px;
+    background-color: #ff5722;
+}
+
+#login-section {
+    margin-top: 0;
+    margin-top: 100px;
+}
+
+#form-wrapper {
+    width: 400px;
+    margin: auto;
+    border-top: 4px solid #ff5722;
+    background-color: #37474F;
+}
+
+#login-form {
+    width: 350px;
+    font-family: VarelaRound;
+}
+
+#form-wrapper {
+    margin: auto;
+}
+
+#login-form > button {
+    width: 100%;
+}
+
+#login-form > input, button {
+    margin-bottom:20px;
+    font-family: VarelaRound;
+}
+
+#event-title {
+    color:#37474f;
+}
+
+#status {
+    color: #ff5722;
+}

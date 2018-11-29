@@ -1,0 +1,53 @@
+@font-face {
+    font-family: VarelaRound;
+    src: url(../src/fonts/VarelaRound-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: Montserrat-Thin;
+    src: url(../src/fonts/Montserrat-Thin.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url(../src/fonts/Montserrat-Medium.ttf);
+}
+
+
+@font-face {
+    font-family: Montserrat-Light;
+    src: url(../src/fonts/Montserrat-Light.ttf);
+}
+
+* {
+    font-family: VarelaRound;
+}
+
+.regular {
+    font-family: VarelaRound;
+}
+
+.thin {
+    font-family: Montserrat-Thin;
+}
+
+.medium {
+    font-family: Montserrat-Medium;
+}
+
+.light {
+    font-family: Montserrat-Light;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    background-color: #263238;
+}
+
+.btn, .btn-large {
+    font-weight: 600;
+}

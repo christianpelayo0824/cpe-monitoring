@@ -1,0 +1,31 @@
+<section>
+  <div class="container">
+    <h4 class="center-align light">Events</h4>
+    <button class="btn" (click)="createEvent()">Create Event</button>
+    <table class="striped centered highlight">
+      <thead>
+        <tr>
+          <th>Id </th>
+          <th>Title</th>
+          <th>Description</th>
+          <th>No. Of Participants</th>
+          <th>Date</th>
+          <th>Operation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let event of events">
+          <td>{{event.eventId}}</td>
+          <td>{{event.title}}</td>
+          <td>{{event.description}}</td>
+          <td>{{event.noOfParticipants}}</td>
+          <td>{{event.date}}</td>
+          <td>
+            <button class="btn" (click)="updateEvent(event)">Update</button> |
+            <button class="btn" (click)="deleteEvent(event)">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>

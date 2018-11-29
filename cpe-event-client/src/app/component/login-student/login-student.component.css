@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: VarelaRound;
+    src: url(../../../fonts/VarelaRound-Regular.ttf);
+}
+
+
+* {
+    font-family: VarelaRound;
+}
+
+#form-wrapper {
+    width: 400px;
+    margin: auto;
+}
+
+#login-form {
+    width: 350px;
+}
+
+#form-wrapper {
+    margin: auto;
+}
+
+#login-form > button {
+    width: 100%;
+}
+
+#login-form > input, button {
+    margin-bottom:20px;
+}

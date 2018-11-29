@@ -1,0 +1,67 @@
+::ng-deep body{
+ color: white;
+}
+
+nav {
+    background-color: #263238;
+}
+
+nav ul a{ 
+    color: #fafafa;
+    text-transform: uppercase;
+    font-size: .8em;
+    font-weight: 600;
+}
+
+nav ul a:hover{ 
+  border-bottom: 3px solid #ff5722;
+}
+
+nav .brand-logo {
+    color: #ff5722;
+}
+
+nav #subscribe-btn {
+    border-radius: 50px;
+    background-color: #ff5722;
+}
+
+#first-section {
+    margin-top: 80px;
+}
+
+hr#divider {
+    width: 350px;
+    border-color: #ff5722;
+    margin-bottom: 50px;
+}
+
+.dashboard-panels {
+    height: 150px;
+    background-color: #37474F;
+
+}
+
+.dashboard-panels:hover {
+    border: 1px solid #64b5f6;
+}
+
+
+.dashboard-panels h6{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+#participants {
+    border-left: 3px solid #ff5722;
+}
+
+#event-list {
+    border-left: 3px solid #E91E63;
+}
+
+#administrator {
+    border-left: 3px solid #2196F3;
+}

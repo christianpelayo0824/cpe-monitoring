@@ -1,0 +1,16 @@
+<section class="valign-wrapper" id="main-section">
+  <section class="center">
+    <div class="container">
+      <div id="form-wrapper" class="card-panel ">
+        <h4 class="center-align light" id="title">Create Event</h4>
+        <form action="" (ngSubmit)="processForm()">
+          <input type="text" placeholder="Title" [(ngModel)]="event.title" name="title">
+          <input type="text" placeholder="Description" [(ngModel)]="event.description" name="description">
+          <input type="text" placeholder="No. of Participants" [(ngModel)]="event.noOfParticipants" name="noOfParticipants">
+          <input type="text" placeholder="Event Date" [(ngModel)]="event.date" name="noOfParticipants">
+          <button class="btn" type="submit">Create</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</section>

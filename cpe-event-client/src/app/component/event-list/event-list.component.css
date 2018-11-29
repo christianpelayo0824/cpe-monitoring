@@ -1,0 +1,31 @@
+.regular {
+    font-family: VarelaRound;
+}
+
+.thin {
+    font-family: Montserrat-Thin;
+}
+
+.medium {
+    font-family: Montserrat-Medium;
+}
+
+.light {
+    font-family: Montserrat-Light;
+}
+
+* {
+    color:white;
+}
+
+section #main-section {
+    margin:0;
+    padding:0;
+    left: 0;
+    top: 0;
+}
+
+
+.btn {
+    background-color: #ff5722;
+}

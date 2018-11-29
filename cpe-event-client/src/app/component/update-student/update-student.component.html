@@ -1,0 +1,21 @@
+<section id="mainSection">
+  <section id="login-section" class="valign-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="">
+          <div id="form-wrapper" class="card-panel z-depth-4">
+            <h4 class="center-align light">Login</h4>
+            <form action="" id="myForm" (ngSubmit)="processForm()">
+              <input id="event" type="text" placeholder="Event Name" [(ngModel)]="event.title" name="title" readonly>
+              <input type="text" placeholder="Firstname" [(ngModel)]="student.firstname" name="firstname">
+              <input type="text" placeholder="Lastname" [(ngModel)]="student.lastname" name="lastname">
+              <input type="text" placeholder="Year" [(ngModel)]="student.studentYear" name="year">
+              <input type="email" placeholder="Email" [(ngModel)]="student.email" name="email">
+              <button type="submit" class="btn">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>

@@ -1,0 +1,166 @@
+
+
+.thin {
+    font-family: Montserrat-Thin;
+}
+
+.medium {
+    font-family: Montserrat-Medium;
+}
+
+.light {
+    font-family: Montserrat-Light;
+}
+
+.btn{
+    background-color: #ff5722;
+}
+
+.btn-large {
+    background-color: #263238;
+    border: 2px solid #ff5722;
+    border-radius: 50px;
+}
+
+.btn-large:hover {
+    background-color: #ff7043;
+}
+
+* {
+    font-family: VarelaRound;
+}
+
+nav {
+    background-color: #263238;
+}
+
+nav ul a{ 
+    color: #fafafa;
+    text-transform: uppercase;
+    font-size: .8em;
+    font-weight: 600;
+}
+
+nav ul a:hover{ 
+  border-bottom: 3px solid #ff5722;
+}
+
+nav .brand-logo {
+    color: #ff5722;
+}
+
+nav #subscribe-btn {
+    border-radius: 50px;
+}
+
+strong {
+    color: #ff5722;
+}
+
+#banner-section {
+    height: 600px;
+    background-image: url(../../../assets/technology3.png);
+    background-size: cover;
+    background-position-y: -100px;
+    margin-bottom: 40px;
+    opacity: 0.99;
+}
+
+#banner-wrapper {
+    background-color: #263238;
+    color: white;
+    opacity: .85;
+    height: 300px;
+    border-radius: 5px;
+}
+
+#banner-wrapper h4 {
+    padding-top: 80px;
+}
+
+#event-section {
+    margin-bottom: 100px;
+}
+
+#event-panel {
+    background-color: #37474f;
+    color: white;
+}
+
+#banner2-section {
+    height: 600px;
+    background-image: url(../../../assets/technology4.png);
+    background-size: cover;
+    background-position-y: -100px;
+    /* margin-bottom: 100px; */
+    opacity: 0.99;
+}
+
+#event-title {
+    color: #ff7043;
+    font-size: 1.3em;
+}
+
+#noOfParticipants-label, #date-label {
+    font-size: .89em;
+}
+
+#header-title {
+    margin-top: 50px;
+    opacity: .7;
+    height: 240px;
+}
+
+#header-title h4{
+    width: 100%;
+}
+
+#event-title-section {
+    color: #fafafa;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: #263238;
+}
+
+#divider {
+    border-color: #546E7A;
+}
+
+#title-section-divider {
+    border-color: #ff5722;
+    width: 400px;
+    margin-bottom: 70px;
+
+}
+
+#sub-footer {
+    margin-bottom: 50px;
+}
+
+#copyright-footer {
+    background-color:#263238;
+}
+
+#contact-left-panel {
+    float: right;
+}
+
+#contact-left-panel input{
+    color: white;
+}
+
+#contact-left-panel button{
+    width: 100%;
+}
+
+#contact-right-panel li{
+    display: inline;
+    padding-right: 20px;
+}
+
+#contact-right-panel li > a{
+    color: white;
+}

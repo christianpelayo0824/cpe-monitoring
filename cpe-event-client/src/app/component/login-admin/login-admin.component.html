@@ -1,0 +1,43 @@
+<header class="">
+  <div class="navbar-fixed">
+    <nav class="">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo medium">CPEVENT</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li>
+              <a href="dashboard#banner-section">Home</a>
+            </li>
+            <li>
+              <a href="dashboard#event-section">Events</a>
+            </li>
+            <li>
+              <a (click)="adminLoginPage()">Admin</a>
+            </li>
+            <li>
+              <a href="dashboard#contact-footer" id="subscribe-btn" class="btn">Subscribe</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+<section id="mainSection">
+  <section id="login-section" class="valign-wrapper">
+    <div class="container">
+      <div id="form-wrapper" class="card-panel z-depth-4">
+        <h4 class="center-align light">Login</h4>
+        <form action="" id="login-form" (submit)="processLogin()">
+          <input type="email" placeholder="Email" id="email" [(ngModel)]="email" name="email">
+          <input type="text" placeholder="Password" id="password" [(ngModel)]="password" name="password">
+          <button class="btn" type="submit">Sign in</button>
+          <p class="center-align light" id="status"></p>
+          <p class="center-align">
+            <a (click)="createAdmin()">Sign up</a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+</section>

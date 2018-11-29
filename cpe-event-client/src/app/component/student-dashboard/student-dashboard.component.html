@@ -1,0 +1,127 @@
+<section id="main-section">
+
+  <header class="">
+    <div class="navbar-fixed">
+      <nav class="">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo medium">CPEVENT</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li>
+                <a href="dashboard#banner-section">Home</a>
+              </li>
+              <li>
+                <a href="dashboard#event-section">Events</a>
+              </li>
+              <li>
+                <a (click)="adminLoginPage()">Admin</a>
+              </li>
+              <li>
+                <a href="dashboard#contact-footer" id="subscribe-btn" class="btn">Subscribe</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <section id="banner-section" class="valign-wrapper">
+    <div class="container center" id="banner-wrapper">
+      <h4 class="thin center-align">
+        <strong>Creative</strong> and
+        <strong>elegant</strong> event design and planning. </h4>
+      <a class="btn-large" href="dashboard#event-section">Attend an Event</a>
+    </div>
+  </section>
+  <section id="event-section" class="section scrollspy">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+      <h5 class="center-align light" id="event-title-section">Events</h5>
+      <hr id="title-section-divider">
+      <section>
+        <div class="row">
+          <div class="col l4" *ngFor="let event of events">
+            <div class="card" id="event-panel">
+              <div class="card-image">
+                <img src="../../../assets/event5.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title" id="event-title">{{event.title}}</span>
+                <h6 class="light" id="date-label">Date: {{event.date}}</h6>
+                <h6 class="light" id="noOfParticipants-label">Seats: {{event.noOfParticipants}}</h6>
+                <p class="">{{event.description}}</p>
+              </div>
+              <div class="card-action">
+                <button class="btn waves-effect waves-light" (click)="signUpAttendees(event)">Attend</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <section id="banner2-section">
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="page-footer" id="contact-footer">
+    <div id="sub-footer">
+      <div class="container">
+        <div class="icon-title-wrapper">
+          <h5 class="title-section">Contact</h5>
+        </div>
+      </div>
+      <div class="container">
+        <div class=" row">
+          <div class="col l6" id="contact-left-panel">
+            <input type="text" placeholder="Firstname">
+            <br>
+            <input type="text" placeholder="Lastname">
+            <br>
+            <input type="email" placeholder="Email">
+            <button type="submit" class="btn">Subscribe</button>
+          </div>
+          <div class="col l6" id="contact-right-panel">
+            <ul>
+              <li>
+                <img src="../../../assets/icons8-phone-20.png" alt="">
+              </li>
+              <li>+639461453569</li>
+            </ul>
+            <ul>
+              <li>
+                <img src="../../../assets/icons8-new-post-20.png" alt="">
+              </li>
+              <li>christianpelayo0824@gmail.com</li>
+            </ul>
+            <ul>
+              <li>
+                <img src="../../../assets/icons8-marker-20.png" alt="">
+              </li>
+              <li>Sambag 1, Cebu City</li>
+            </ul>
+            <ul>
+              <li>
+                <img src="../../assets/icons8-linkedin-20.png" alt="">
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/christian-pelayo/"> christian-pelayo</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr id="divider">
+    <div class="footer-copyright" id="copyright-footer">
+      <div class="container center">
+        &copy; 2018 Christian Pelayo
+      </div>
+    </div>
+  </footer>

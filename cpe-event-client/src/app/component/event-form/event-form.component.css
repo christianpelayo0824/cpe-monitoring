@@ -1,0 +1,47 @@
+.regular {
+    font-family: VarelaRound;
+}
+
+.thin {
+    font-family: Montserrat-Thin;
+}
+
+.medium {
+    font-family: Montserrat-Medium;
+}
+
+.light {
+    font-family: Montserrat-Light;
+}
+
+* {
+    font-family: VarelaRound;
+    color: white;
+}
+
+#main-section {
+    height: 100vh;
+}
+
+section {
+    width: 100vw;
+}
+
+section #title{
+    margin: 0;
+}
+
+#form-wrapper {
+    border-top: 3px solid #ff5722;
+    width: 400px;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    height: 25em;
+    background-color: #37474F;
+}
+
+form > button {
+    margin-top: 20px;
+    width: 100%;
+}

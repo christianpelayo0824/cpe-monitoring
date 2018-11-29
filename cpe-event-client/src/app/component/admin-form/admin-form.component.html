@@ -1,0 +1,16 @@
+<section class="valign-wrapper" id="main-section">
+  <section class="center">
+    <div class="container">
+      <div id="form-wrapper" class="card-panel ">
+        <h4 class="center-align light" id="title">Admin</h4>
+        <form action="" (ngSubmit)="processForm()">
+          <input type="text" placeholder="Firstname" [(ngModel)]="event.firstname" name="firstname">
+          <input type="text" placeholder="Lastname" [(ngModel)]="event.lastname" name="lastname">
+          <input type="email" placeholder="Email" [(ngModel)]="event.email" name="email">
+          <input type="password" placeholder="Password" [(ngModel)]="event.password" name="password">
+          <button class="btn" type="submit">Create</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</section>

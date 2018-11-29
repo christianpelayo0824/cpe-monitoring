@@ -1,0 +1,12 @@
+<section>
+  <div class="container">
+    <h1 class="center-align">Login</h1>
+    <div id="form-wrapper" class="card-panel">
+      <form action="" id="login-form" (submit)="processLogin()">
+        <input type="email" placeholder="Email" id="email" [(ngModel)]="email" name="email">
+        <input type="text" placeholder="Password" id="password" [(ngModel)]="password" name="password">
+        <button class="btn" type="submit">Sign in</button>
+      </form>
+    </div>
+  </div>
+</section>
